@@ -1,0 +1,1806 @@
+{
+  "sample_packages": [
+    {
+      "id": "PKG-101",
+      "resort_name": "The Oberoi Amarvilas, Agra",
+      "region": "Agra, India",
+      "package_type": "Cultural Luxury",
+      "vibe": "Heritage, Romantic, Iconic",
+      "price_gbp": 4500,
+      "duration_days": 10,
+      "key_amenities": [
+        "Taj Mahal Views",
+        "Private Butler",
+        "Royal Spa",
+        "Mughal Cuisine Tours"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-102",
+      "resort_name": "Umaid Bhawan Palace, Jodhpur",
+      "region": "Rajasthan, India",
+      "package_type": "Cultural Luxury",
+      "vibe": "Regal, Historic, Grand",
+      "price_gbp": 5200,
+      "duration_days": 12,
+      "key_amenities": [
+        "Palace Museum Tour",
+        "Vintage Car Drives",
+        "Royal Dining",
+        "Private Courtyard"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-003",
+      "resort_name": "Great Plains Conservation Kruger, South Africa",
+      "region": "Kruger, South Africa",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 6100,
+      "duration_days": 14,
+      "key_amenities": [
+        "Guided Bush Walks",
+        "Sundowners",
+        "Private Plunge Pool",
+        "Daily Game Drives"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-074",
+      "resort_name": "Hyatt Regency Sydney",
+      "region": "Sydney",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 4000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Water Park Access",
+        "Babysitting Services",
+        "Private Cinema",
+        "Family Excursions"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-033",
+      "resort_name": "Elewana Serengeti, Tanzania",
+      "region": "Serengeti, Tanzania",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 8700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Guided Bush Walks",
+        "Sundowners",
+        "Outdoor Shower",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-083",
+      "resort_name": "Explora Moab",
+      "region": "Moab",
+      "package_type": "Adventure Trips",
+      "vibe": "Nature, Energetic, Breathtaking",
+      "price_gbp": 2100,
+      "duration_days": 7,
+      "key_amenities": [
+        "Mountain Biking",
+        "Stargazing Observatory",
+        "Recovery Spa",
+        "Expert Local Guides"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-049",
+      "resort_name": "Ritz-Carlton Paris",
+      "region": "Paris",
+      "package_type": "Honeymoon",
+      "vibe": "Intimate, Scenic, Tranquil",
+      "price_gbp": 5800,
+      "duration_days": 7,
+      "key_amenities": [
+        "Sunset Cruise",
+        "Private Pool",
+        "Champagne on Arrival",
+        "Couples Spa Treatment"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-050",
+      "resort_name": "Club Med Cancun",
+      "region": "Cancun",
+      "package_type": "Family holidays",
+      "vibe": "Cultural, Educational, Safe",
+      "price_gbp": 7100,
+      "duration_days": 10,
+      "key_amenities": [
+        "All-Inclusive Dining",
+        "Private Cinema",
+        "Connecting Rooms",
+        "Kids Club"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-036",
+      "resort_name": "Fairmont Niseko",
+      "region": "Niseko",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 8700,
+      "duration_days": 5,
+      "key_amenities": [
+        "Equipment Valet",
+        "Lift Passes Included",
+        "Apres-Ski Lounge",
+        "Ski-In/Ski-Out"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-099",
+      "resort_name": "Asilia Africa Kruger, South Africa",
+      "region": "Kruger, South Africa",
+      "package_type": "Safari Trips",
+      "vibe": "Photographic, Immersive, Rustic Luxury",
+      "price_gbp": 10900,
+      "duration_days": 7,
+      "key_amenities": [
+        "Daily Game Drives",
+        "Outdoor Shower",
+        "Guided Bush Walks",
+        "Helicopter Transfer"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-001",
+      "resort_name": "Waldorf Astoria Zanzibar",
+      "region": "Zanzibar",
+      "package_type": "Honeymoon",
+      "vibe": "Luxury, Oceanfront, Exclusive",
+      "price_gbp": 9700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Butler Service",
+        "Sunset Cruise",
+        "Candlelight Beach Dining",
+        "Overwater Villa"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-098",
+      "resort_name": "Four Seasons Orlando",
+      "region": "Orlando",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 5800,
+      "duration_days": 5,
+      "key_amenities": [
+        "Water Park Access",
+        "Babysitting Services",
+        "Kids Club",
+        "Connecting Rooms"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-069",
+      "resort_name": "Porini Chobe, Botswana",
+      "region": "Chobe, Botswana",
+      "package_type": "Safari Trips",
+      "vibe": "Wild, Adventurous, Remote",
+      "price_gbp": 10800,
+      "duration_days": 7,
+      "key_amenities": [
+        "Outdoor Shower",
+        "Binoculars Provided",
+        "Sundowners",
+        "Helicopter Transfer"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-096",
+      "resort_name": "Kempinski Whistler",
+      "region": "Whistler",
+      "package_type": "Skiing",
+      "vibe": "Luxurious, Apres-Ski, Scenic",
+      "price_gbp": 7000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Gourmet Fondue Experience",
+        "Lift Passes Included",
+        "Ski-In/Ski-Out",
+        "Private Instructor"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-053",
+      "resort_name": "Mashpi Lodge Zion National Park",
+      "region": "Zion National Park",
+      "package_type": "Adventure Trips",
+      "vibe": "High-Altitude, Challenging, Rewarding",
+      "price_gbp": 5800,
+      "duration_days": 14,
+      "key_amenities": [
+        "Stargazing Observatory",
+        "Recovery Spa",
+        "Mountain Biking",
+        "Kayaking"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-064",
+      "resort_name": "Oceania Cruises Norwegian Fjords",
+      "region": "Norwegian Fjords",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 10400,
+      "duration_days": 7,
+      "key_amenities": [
+        "Multiple Fine Dining venues",
+        "Ocean View Balcony",
+        "Evening Entertainment",
+        "Spa Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-072",
+      "resort_name": "Montage Cortina d'Ampezzo",
+      "region": "Cortina d'Ampezzo",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 8800,
+      "duration_days": 10,
+      "key_amenities": [
+        "Private Instructor",
+        "Gourmet Fondue Experience",
+        "Apres-Ski Lounge",
+        "Heated Pool"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-021",
+      "resort_name": "Singita Kruger, South Africa",
+      "region": "Kruger, South Africa",
+      "package_type": "Safari Trips",
+      "vibe": "Luxury, Wildlife, Exciting",
+      "price_gbp": 6200,
+      "duration_days": 7,
+      "key_amenities": [
+        "Outdoor Shower",
+        "Daily Game Drives",
+        "Private Plunge Pool",
+        "Guided Bush Walks"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-061",
+      "resort_name": "Four Seasons Seychelles",
+      "region": "Seychelles",
+      "package_type": "Honeymoon",
+      "vibe": "Luxury, Oceanfront, Exclusive",
+      "price_gbp": 5300,
+      "duration_days": 7,
+      "key_amenities": [
+        "Private Pool",
+        "Butler Service",
+        "Overwater Villa",
+        "Candlelight Beach Dining"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-055",
+      "resort_name": "St. Regis Lucerne",
+      "region": "Lucerne",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 6700,
+      "duration_days": 10,
+      "key_amenities": [
+        "Champagne on Arrival",
+        "Butler Service",
+        "Private Pool",
+        "Sunset Cruise"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-044",
+      "resort_name": "Ritz-Carlton Reserve Phuket",
+      "region": "Phuket",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 3600,
+      "duration_days": 10,
+      "key_amenities": [
+        "Private Cinema",
+        "Kids Club",
+        "Family Excursions",
+        "All-Inclusive Dining"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-062",
+      "resort_name": "Club Med Dubai",
+      "region": "Dubai",
+      "package_type": "Family holidays",
+      "vibe": "Relaxing, Spacious, Entertaining",
+      "price_gbp": 5400,
+      "duration_days": 7,
+      "key_amenities": [
+        "Kids Club",
+        "Babysitting Services",
+        "Connecting Rooms",
+        "All-Inclusive Dining"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-086",
+      "resort_name": "Beaches Resort Orlando",
+      "region": "Orlando",
+      "package_type": "Family holidays",
+      "vibe": "Relaxing, Spacious, Entertaining",
+      "price_gbp": 7700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Babysitting Services",
+        "All-Inclusive Dining",
+        "Water Park Access",
+        "Family Excursions"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-028",
+      "resort_name": "Viking Ocean Caribbean",
+      "region": "Caribbean",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 9300,
+      "duration_days": 10,
+      "key_amenities": [
+        "Unlimited Premium WiFi",
+        "Spa Access",
+        "Evening Entertainment",
+        "Ocean View Balcony"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-078",
+      "resort_name": "Ritz-Carlton Val d'Isere",
+      "region": "Val d'Isere",
+      "package_type": "Skiing",
+      "vibe": "Luxurious, Apres-Ski, Scenic",
+      "price_gbp": 5900,
+      "duration_days": 14,
+      "key_amenities": [
+        "Apres-Ski Lounge",
+        "Gourmet Fondue Experience",
+        "Private Instructor",
+        "Lift Passes Included"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-079",
+      "resort_name": "Ritz-Carlton Santorini",
+      "region": "Santorini",
+      "package_type": "Honeymoon",
+      "vibe": "Intimate, Scenic, Tranquil",
+      "price_gbp": 4100,
+      "duration_days": 10,
+      "key_amenities": [
+        "Champagne on Arrival",
+        "Sunset Cruise",
+        "Overwater Villa",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-068",
+      "resort_name": "Ritz-Carlton Reserve Sydney",
+      "region": "Sydney",
+      "package_type": "Family holidays",
+      "vibe": "Relaxing, Spacious, Entertaining",
+      "price_gbp": 2900,
+      "duration_days": 5,
+      "key_amenities": [
+        "Connecting Rooms",
+        "Private Cinema",
+        "Babysitting Services",
+        "Water Park Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-060",
+      "resort_name": "Cheval Blanc Queenstown",
+      "region": "Queenstown",
+      "package_type": "Skiing",
+      "vibe": "Extreme, High-Altitude, Thrilling",
+      "price_gbp": 5400,
+      "duration_days": 14,
+      "key_amenities": [
+        "Lift Passes Included",
+        "Apres-Ski Lounge",
+        "Private Instructor",
+        "Ski-In/Ski-Out"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-094",
+      "resort_name": "Viking Ocean French Polynesia",
+      "region": "French Polynesia",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 8100,
+      "duration_days": 10,
+      "key_amenities": [
+        "Spa Access",
+        "Evening Entertainment",
+        "Butler Service",
+        "Multiple Fine Dining venues"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-014",
+      "resort_name": "Hilton Grand Vacations Orlando",
+      "region": "Orlando",
+      "package_type": "Family holidays",
+      "vibe": "Fun, Active, Kid-Friendly",
+      "price_gbp": 5400,
+      "duration_days": 7,
+      "key_amenities": [
+        "Family Excursions",
+        "All-Inclusive Dining",
+        "Babysitting Services",
+        "Private Cinema"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-037",
+      "resort_name": "Ritz-Carlton Maui",
+      "region": "Maui",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 7700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Couples Spa Treatment",
+        "Overwater Villa",
+        "Butler Service",
+        "Sunset Cruise"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-035",
+      "resort_name": "Amangiri Swiss Alps",
+      "region": "Swiss Alps",
+      "package_type": "Adventure Trips",
+      "vibe": "Active, Thrilling, Rugged",
+      "price_gbp": 4600,
+      "duration_days": 14,
+      "key_amenities": [
+        "Guided Hiking",
+        "Pro Gear Provided",
+        "Kayaking",
+        "Expert Local Guides"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-010",
+      "resort_name": "Regent Seven Seas Antarctica",
+      "region": "Antarctica",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 8500,
+      "duration_days": 10,
+      "key_amenities": [
+        "Evening Entertainment",
+        "Ocean View Balcony",
+        "Multiple Fine Dining venues",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-048",
+      "resort_name": "Fairmont Banff",
+      "region": "Banff",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 9800,
+      "duration_days": 7,
+      "key_amenities": [
+        "Equipment Valet",
+        "Ski-In/Ski-Out",
+        "Apres-Ski Lounge",
+        "Private Instructor"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-067",
+      "resort_name": "Rosewood Maldives",
+      "region": "Maldives",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 7500,
+      "duration_days": 14,
+      "key_amenities": [
+        "Sunset Cruise",
+        "Butler Service",
+        "Overwater Villa",
+        "Private Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-092",
+      "resort_name": "Disney Grand Floridian Orlando",
+      "region": "Orlando",
+      "package_type": "Family holidays",
+      "vibe": "Fun, Active, Kid-Friendly",
+      "price_gbp": 5100,
+      "duration_days": 7,
+      "key_amenities": [
+        "All-Inclusive Dining",
+        "Water Park Access",
+        "Connecting Rooms",
+        "Kids Club"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-080",
+      "resort_name": "Ritz-Carlton Reserve San Diego",
+      "region": "San Diego",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 5600,
+      "duration_days": 10,
+      "key_amenities": [
+        "Babysitting Services",
+        "Private Cinema",
+        "Connecting Rooms",
+        "All-Inclusive Dining"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-019",
+      "resort_name": "Capella Venice",
+      "region": "Venice",
+      "package_type": "Honeymoon",
+      "vibe": "Cliffside, Vibrant, Exclusive",
+      "price_gbp": 7100,
+      "duration_days": 7,
+      "key_amenities": [
+        "Couples Spa Treatment",
+        "Sunset Cruise",
+        "Overwater Villa",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-022",
+      "resort_name": "Azamara Rhine River",
+      "region": "Rhine River",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 11500,
+      "duration_days": 14,
+      "key_amenities": [
+        "Specialized Shore Excursions",
+        "Butler Service",
+        "Ocean View Balcony",
+        "Spa Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-076",
+      "resort_name": "Regent Seven Seas Greek Isles",
+      "region": "Greek Isles",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 8600,
+      "duration_days": 7,
+      "key_amenities": [
+        "Multiple Fine Dining venues",
+        "Specialized Shore Excursions",
+        "Spa Access",
+        "Unlimited Premium WiFi"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-006",
+      "resort_name": "W Hotel Courchevel",
+      "region": "Courchevel",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 9900,
+      "duration_days": 7,
+      "key_amenities": [
+        "Heated Pool",
+        "Ski-In/Ski-Out",
+        "Gourmet Fondue Experience",
+        "Private Instructor"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-051",
+      "resort_name": "Lion Sands Masai Mara, Kenya",
+      "region": "Masai Mara, Kenya",
+      "package_type": "Safari Trips",
+      "vibe": "Photographic, Immersive, Rustic Luxury",
+      "price_gbp": 9200,
+      "duration_days": 5,
+      "key_amenities": [
+        "Outdoor Shower",
+        "Helicopter Transfer",
+        "Sundowners",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-077",
+      "resort_name": "Inkaterra Nepal",
+      "region": "Nepal",
+      "package_type": "Adventure Trips",
+      "vibe": "Extreme, Scenic, Remote",
+      "price_gbp": 5600,
+      "duration_days": 10,
+      "key_amenities": [
+        "Stargazing Observatory",
+        "Expert Local Guides",
+        "Pro Gear Provided",
+        "Recovery Spa"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-004",
+      "resort_name": "Ponant Mediterranean",
+      "region": "Mediterranean",
+      "package_type": "Cruises",
+      "vibe": "Expedition, Wildlife, Adventurous",
+      "price_gbp": 7500,
+      "duration_days": 10,
+      "key_amenities": [
+        "Evening Entertainment",
+        "Spa Access",
+        "Unlimited Premium WiFi",
+        "Multiple Fine Dining venues"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-024",
+      "resort_name": "Montage Banff",
+      "region": "Banff",
+      "package_type": "Skiing",
+      "vibe": "Snowy, Active, Alpine",
+      "price_gbp": 7900,
+      "duration_days": 7,
+      "key_amenities": [
+        "Ski-In/Ski-Out",
+        "Heated Pool",
+        "Gourmet Fondue Experience",
+        "Apres-Ski Lounge"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-038",
+      "resort_name": "Hyatt Regency Tokyo",
+      "region": "Tokyo",
+      "package_type": "Family holidays",
+      "vibe": "Cultural, Educational, Safe",
+      "price_gbp": 2500,
+      "duration_days": 14,
+      "key_amenities": [
+        "All-Inclusive Dining",
+        "Kids Club",
+        "Private Cinema",
+        "Water Park Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-063",
+      "resort_name": "Lion Sands Serengeti, Tanzania",
+      "region": "Serengeti, Tanzania",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 7800,
+      "duration_days": 7,
+      "key_amenities": [
+        "Binoculars Provided",
+        "Private Plunge Pool",
+        "Guided Bush Walks",
+        "Sundowners"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-009",
+      "resort_name": "Lion Sands Ngorongoro, Tanzania",
+      "region": "Ngorongoro, Tanzania",
+      "package_type": "Safari Trips",
+      "vibe": "Luxury, Wildlife, Exciting",
+      "price_gbp": 7000,
+      "duration_days": 10,
+      "key_amenities": [
+        "Helicopter Transfer",
+        "Guided Bush Walks",
+        "Daily Game Drives",
+        "Outdoor Shower"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-058",
+      "resort_name": "Crystal Cruises Antarctica",
+      "region": "Antarctica",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 7500,
+      "duration_days": 14,
+      "key_amenities": [
+        "Ocean View Balcony",
+        "Multiple Fine Dining venues",
+        "Unlimited Premium WiFi",
+        "Specialized Shore Excursions"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-046",
+      "resort_name": "Scenic Luxury Alaskan",
+      "region": "Alaskan",
+      "package_type": "Cruises",
+      "vibe": "Luxury, All-Inclusive, Elegant",
+      "price_gbp": 10000,
+      "duration_days": 5,
+      "key_amenities": [
+        "Unlimited Premium WiFi",
+        "Spa Access",
+        "Specialized Shore Excursions",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-090",
+      "resort_name": "Cheval Blanc Banff",
+      "region": "Banff",
+      "package_type": "Skiing",
+      "vibe": "Extreme, High-Altitude, Thrilling",
+      "price_gbp": 10400,
+      "duration_days": 10,
+      "key_amenities": [
+        "Ski-In/Ski-Out",
+        "Heated Pool",
+        "Apres-Ski Lounge",
+        "Lift Passes Included"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-011",
+      "resort_name": "Explora Banff",
+      "region": "Banff",
+      "package_type": "Adventure Trips",
+      "vibe": "Nature, Energetic, Breathtaking",
+      "price_gbp": 7100,
+      "duration_days": 5,
+      "key_amenities": [
+        "Stargazing Observatory",
+        "Recovery Spa",
+        "Expert Local Guides",
+        "Pro Gear Provided"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-057",
+      "resort_name": "Sabi Sabi Etosha, Namibia",
+      "region": "Etosha, Namibia",
+      "package_type": "Safari Trips",
+      "vibe": "Wild, Adventurous, Remote",
+      "price_gbp": 10200,
+      "duration_days": 14,
+      "key_amenities": [
+        "Binoculars Provided",
+        "Outdoor Shower",
+        "Daily Game Drives",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-043",
+      "resort_name": "St. Regis Fiji",
+      "region": "Fiji",
+      "package_type": "Honeymoon",
+      "vibe": "Intimate, Scenic, Tranquil",
+      "price_gbp": 5000,
+      "duration_days": 5,
+      "key_amenities": [
+        "Sunset Cruise",
+        "Candlelight Beach Dining",
+        "Private Pool",
+        "Champagne on Arrival"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-100",
+      "resort_name": "Regent Seven Seas Rhine River",
+      "region": "Rhine River",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 10300,
+      "duration_days": 7,
+      "key_amenities": [
+        "Unlimited Premium WiFi",
+        "Spa Access",
+        "Ocean View Balcony",
+        "Specialized Shore Excursions"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-081",
+      "resort_name": "Porini Etosha, Namibia",
+      "region": "Etosha, Namibia",
+      "package_type": "Safari Trips",
+      "vibe": "Photographic, Immersive, Rustic Luxury",
+      "price_gbp": 10900,
+      "duration_days": 14,
+      "key_amenities": [
+        "Helicopter Transfer",
+        "Daily Game Drives",
+        "Binoculars Provided",
+        "Guided Bush Walks"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-056",
+      "resort_name": "Hyatt Regency Tokyo",
+      "region": "Tokyo",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 2200,
+      "duration_days": 14,
+      "key_amenities": [
+        "Water Park Access",
+        "Family Excursions",
+        "Babysitting Services",
+        "Connecting Rooms"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-025",
+      "resort_name": "Capella Santorini",
+      "region": "Santorini",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Secluded, Beach",
+      "price_gbp": 8400,
+      "duration_days": 14,
+      "key_amenities": [
+        "Butler Service",
+        "Couples Spa Treatment",
+        "Overwater Villa",
+        "Champagne on Arrival"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-088",
+      "resort_name": "Ponant Antarctica",
+      "region": "Antarctica",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 9000,
+      "duration_days": 10,
+      "key_amenities": [
+        "Butler Service",
+        "Ocean View Balcony",
+        "Spa Access",
+        "Evening Entertainment"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-032",
+      "resort_name": "JW Marriott San Diego",
+      "region": "San Diego",
+      "package_type": "Family holidays",
+      "vibe": "Cultural, Educational, Safe",
+      "price_gbp": 3200,
+      "duration_days": 14,
+      "key_amenities": [
+        "Connecting Rooms",
+        "Babysitting Services",
+        "All-Inclusive Dining",
+        "Kids Club"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-085",
+      "resort_name": "Waldorf Astoria Maldives",
+      "region": "Maldives",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 6400,
+      "duration_days": 10,
+      "key_amenities": [
+        "Private Pool",
+        "Candlelight Beach Dining",
+        "Overwater Villa",
+        "Sunset Cruise"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-065",
+      "resort_name": "Awasi Zion National Park",
+      "region": "Zion National Park",
+      "package_type": "Adventure Trips",
+      "vibe": "Extreme, Scenic, Remote",
+      "price_gbp": 3900,
+      "duration_days": 10,
+      "key_amenities": [
+        "Pro Gear Provided",
+        "Kayaking",
+        "Stargazing Observatory",
+        "Guided Hiking"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-089",
+      "resort_name": "Mashpi Lodge Zion National Park",
+      "region": "Zion National Park",
+      "package_type": "Adventure Trips",
+      "vibe": "High-Altitude, Challenging, Rewarding",
+      "price_gbp": 4300,
+      "duration_days": 7,
+      "key_amenities": [
+        "Mountain Biking",
+        "Pro Gear Provided",
+        "Stargazing Observatory",
+        "Guided Hiking"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-031",
+      "resort_name": "Aman Maldives",
+      "region": "Maldives",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 5500,
+      "duration_days": 14,
+      "key_amenities": [
+        "Candlelight Beach Dining",
+        "Champagne on Arrival",
+        "Couples Spa Treatment",
+        "Private Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-013",
+      "resort_name": "St. Regis Bora Bora",
+      "region": "Bora Bora",
+      "package_type": "Honeymoon",
+      "vibe": "Cliffside, Vibrant, Exclusive",
+      "price_gbp": 9900,
+      "duration_days": 10,
+      "key_amenities": [
+        "Butler Service",
+        "Sunset Cruise",
+        "Private Pool",
+        "Couples Spa Treatment"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-002",
+      "resort_name": "Ritz-Carlton Reserve Orlando",
+      "region": "Orlando",
+      "package_type": "Family holidays",
+      "vibe": "Fun, Active, Kid-Friendly",
+      "price_gbp": 3700,
+      "duration_days": 7,
+      "key_amenities": [
+        "All-Inclusive Dining",
+        "Connecting Rooms",
+        "Kids Club",
+        "Babysitting Services"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-073",
+      "resort_name": "One&Only Lucerne",
+      "region": "Lucerne",
+      "package_type": "Honeymoon",
+      "vibe": "Intimate, Scenic, Tranquil",
+      "price_gbp": 6700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Butler Service",
+        "Candlelight Beach Dining",
+        "Overwater Villa",
+        "Sunset Cruise"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-087",
+      "resort_name": "Sabi Sabi Masai Mara, Kenya",
+      "region": "Masai Mara, Kenya",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 6600,
+      "duration_days": 14,
+      "key_amenities": [
+        "Outdoor Shower",
+        "Helicopter Transfer",
+        "Guided Bush Walks",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-040",
+      "resort_name": "Seabourn Galapagos",
+      "region": "Galapagos",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 7000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Multiple Fine Dining venues",
+        "Butler Service",
+        "Ocean View Balcony",
+        "Evening Entertainment"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-091",
+      "resort_name": "Waldorf Astoria Zanzibar",
+      "region": "Zanzibar",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Secluded, Beach",
+      "price_gbp": 8400,
+      "duration_days": 14,
+      "key_amenities": [
+        "Candlelight Beach Dining",
+        "Couples Spa Treatment",
+        "Private Pool",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-070",
+      "resort_name": "Silversea Norwegian Fjords",
+      "region": "Norwegian Fjords",
+      "package_type": "Cruises",
+      "vibe": "Cultural, Historic, Coastal",
+      "price_gbp": 11100,
+      "duration_days": 7,
+      "key_amenities": [
+        "Ocean View Balcony",
+        "Spa Access",
+        "Specialized Shore Excursions",
+        "Multiple Fine Dining venues"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-084",
+      "resort_name": "W Hotel Queenstown",
+      "region": "Queenstown",
+      "package_type": "Skiing",
+      "vibe": "Luxurious, Apres-Ski, Scenic",
+      "price_gbp": 7600,
+      "duration_days": 7,
+      "key_amenities": [
+        "Lift Passes Included",
+        "Equipment Valet",
+        "Gourmet Fondue Experience",
+        "Private Instructor"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-020",
+      "resort_name": "Four Seasons Singapore",
+      "region": "Singapore",
+      "package_type": "Family holidays",
+      "vibe": "Relaxing, Spacious, Entertaining",
+      "price_gbp": 2000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Family Excursions",
+        "All-Inclusive Dining",
+        "Private Cinema",
+        "Water Park Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-066",
+      "resort_name": "Cheval Blanc Niseko",
+      "region": "Niseko",
+      "package_type": "Skiing",
+      "vibe": "Luxurious, Apres-Ski, Scenic",
+      "price_gbp": 10600,
+      "duration_days": 7,
+      "key_amenities": [
+        "Ski-In/Ski-Out",
+        "Heated Pool",
+        "Lift Passes Included",
+        "Gourmet Fondue Experience"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-017",
+      "resort_name": "Inkaterra Iceland",
+      "region": "Iceland",
+      "package_type": "Adventure Trips",
+      "vibe": "Extreme, Scenic, Remote",
+      "price_gbp": 2500,
+      "duration_days": 5,
+      "key_amenities": [
+        "Guided Hiking",
+        "Pro Gear Provided",
+        "Recovery Spa",
+        "Stargazing Observatory"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-093",
+      "resort_name": "andBeyond Etosha, Namibia",
+      "region": "Etosha, Namibia",
+      "package_type": "Safari Trips",
+      "vibe": "Photographic, Immersive, Rustic Luxury",
+      "price_gbp": 9400,
+      "duration_days": 7,
+      "key_amenities": [
+        "Sundowners",
+        "Binoculars Provided",
+        "Daily Game Drives",
+        "Outdoor Shower"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-071",
+      "resort_name": "Tierra Banff",
+      "region": "Banff",
+      "package_type": "Adventure Trips",
+      "vibe": "Extreme, Scenic, Remote",
+      "price_gbp": 5300,
+      "duration_days": 5,
+      "key_amenities": [
+        "Guided Hiking",
+        "Pro Gear Provided",
+        "Recovery Spa",
+        "Expert Local Guides"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-015",
+      "resort_name": "andBeyond Kruger, South Africa",
+      "region": "Kruger, South Africa",
+      "package_type": "Safari Trips",
+      "vibe": "Luxury, Wildlife, Exciting",
+      "price_gbp": 8400,
+      "duration_days": 14,
+      "key_amenities": [
+        "Binoculars Provided",
+        "Outdoor Shower",
+        "Daily Game Drives",
+        "Guided Bush Walks"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-059",
+      "resort_name": "Nayara Tented Camp Zion National Park",
+      "region": "Zion National Park",
+      "package_type": "Adventure Trips",
+      "vibe": "Nature, Energetic, Breathtaking",
+      "price_gbp": 4500,
+      "duration_days": 5,
+      "key_amenities": [
+        "Expert Local Guides",
+        "Kayaking",
+        "Guided Hiking",
+        "Pro Gear Provided"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-054",
+      "resort_name": "Aman Vail",
+      "region": "Vail",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 7800,
+      "duration_days": 5,
+      "key_amenities": [
+        "Gourmet Fondue Experience",
+        "Lift Passes Included",
+        "Equipment Valet",
+        "Private Instructor"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-029",
+      "resort_name": "Inkaterra Swiss Alps",
+      "region": "Swiss Alps",
+      "package_type": "Adventure Trips",
+      "vibe": "Nature, Energetic, Breathtaking",
+      "price_gbp": 7200,
+      "duration_days": 10,
+      "key_amenities": [
+        "Recovery Spa",
+        "Pro Gear Provided",
+        "Guided Hiking",
+        "Mountain Biking"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-082",
+      "resort_name": "Silversea Rhine River",
+      "region": "Rhine River",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 11000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Specialized Shore Excursions",
+        "Multiple Fine Dining venues",
+        "Butler Service",
+        "Unlimited Premium WiFi"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-027",
+      "resort_name": "andBeyond Masai Mara, Kenya",
+      "region": "Masai Mara, Kenya",
+      "package_type": "Safari Trips",
+      "vibe": "Wild, Adventurous, Remote",
+      "price_gbp": 8500,
+      "duration_days": 5,
+      "key_amenities": [
+        "Binoculars Provided",
+        "Outdoor Shower",
+        "Daily Game Drives",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-030",
+      "resort_name": "Fairmont Zermatt",
+      "region": "Zermatt",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 7400,
+      "duration_days": 10,
+      "key_amenities": [
+        "Lift Passes Included",
+        "Heated Pool",
+        "Private Instructor",
+        "Equipment Valet"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-097",
+      "resort_name": "One&Only Bali",
+      "region": "Bali",
+      "package_type": "Honeymoon",
+      "vibe": "Cliffside, Vibrant, Exclusive",
+      "price_gbp": 8900,
+      "duration_days": 10,
+      "key_amenities": [
+        "Candlelight Beach Dining",
+        "Champagne on Arrival",
+        "Private Pool",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-039",
+      "resort_name": "Wilderness Safaris South Luangwa, Zambia",
+      "region": "South Luangwa, Zambia",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 11300,
+      "duration_days": 7,
+      "key_amenities": [
+        "Guided Bush Walks",
+        "Private Plunge Pool",
+        "Binoculars Provided",
+        "Outdoor Shower"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-075",
+      "resort_name": "Sabi Sabi Etosha, Namibia",
+      "region": "Etosha, Namibia",
+      "package_type": "Safari Trips",
+      "vibe": "Photographic, Immersive, Rustic Luxury",
+      "price_gbp": 7000,
+      "duration_days": 14,
+      "key_amenities": [
+        "Guided Bush Walks",
+        "Outdoor Shower",
+        "Daily Game Drives",
+        "Helicopter Transfer"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-047",
+      "resort_name": "Explora Moab",
+      "region": "Moab",
+      "package_type": "Adventure Trips",
+      "vibe": "Nature, Energetic, Breathtaking",
+      "price_gbp": 6800,
+      "duration_days": 7,
+      "key_amenities": [
+        "Kayaking",
+        "Guided Hiking",
+        "Expert Local Guides",
+        "Stargazing Observatory"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-095",
+      "resort_name": "Mashpi Lodge New Zealand",
+      "region": "New Zealand",
+      "package_type": "Adventure Trips",
+      "vibe": "High-Altitude, Challenging, Rewarding",
+      "price_gbp": 5200,
+      "duration_days": 7,
+      "key_amenities": [
+        "Kayaking",
+        "Stargazing Observatory",
+        "Mountain Biking",
+        "Recovery Spa"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-007",
+      "resort_name": "Aman Kyoto",
+      "region": "Kyoto",
+      "package_type": "Honeymoon",
+      "vibe": "Romantic, Cultural, Historic",
+      "price_gbp": 8500,
+      "duration_days": 10,
+      "key_amenities": [
+        "Candlelight Beach Dining",
+        "Sunset Cruise",
+        "Overwater Villa",
+        "Butler Service"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Adults only preferred"
+      ]
+    },
+    {
+      "id": "PKG-008",
+      "resort_name": "JW Marriott Singapore",
+      "region": "Singapore",
+      "package_type": "Family holidays",
+      "vibe": "Resort-Style, Beach, Active",
+      "price_gbp": 5400,
+      "duration_days": 10,
+      "key_amenities": [
+        "Water Park Access",
+        "Babysitting Services",
+        "Private Cinema",
+        "Family Excursions"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    },
+    {
+      "id": "PKG-016",
+      "resort_name": "Azamara Norwegian Fjords",
+      "region": "Norwegian Fjords",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 6500,
+      "duration_days": 7,
+      "key_amenities": [
+        "Specialized Shore Excursions",
+        "Butler Service",
+        "Multiple Fine Dining venues",
+        "Spa Access"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-023",
+      "resort_name": "Amangiri Costa Rica",
+      "region": "Costa Rica",
+      "package_type": "Adventure Trips",
+      "vibe": "High-Altitude, Challenging, Rewarding",
+      "price_gbp": 2000,
+      "duration_days": 10,
+      "key_amenities": [
+        "Guided Hiking",
+        "Pro Gear Provided",
+        "Mountain Biking",
+        "Expert Local Guides"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-045",
+      "resort_name": "Asilia Africa Serengeti, Tanzania",
+      "region": "Serengeti, Tanzania",
+      "package_type": "Safari Trips",
+      "vibe": "Scenic, Untamed, Exclusive",
+      "price_gbp": 8500,
+      "duration_days": 7,
+      "key_amenities": [
+        "Sundowners",
+        "Guided Bush Walks",
+        "Binoculars Provided",
+        "Private Plunge Pool"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-005",
+      "resort_name": "Tierra Namib Desert",
+      "region": "Namib Desert",
+      "package_type": "Adventure Trips",
+      "vibe": "High-Altitude, Challenging, Rewarding",
+      "price_gbp": 7000,
+      "duration_days": 7,
+      "key_amenities": [
+        "Recovery Spa",
+        "Kayaking",
+        "Mountain Biking",
+        "Stargazing Observatory"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-041",
+      "resort_name": "Tierra Costa Rica",
+      "region": "Costa Rica",
+      "package_type": "Adventure Trips",
+      "vibe": "Active, Thrilling, Rugged",
+      "price_gbp": 5000,
+      "duration_days": 5,
+      "key_amenities": [
+        "Kayaking",
+        "Expert Local Guides",
+        "Guided Hiking",
+        "Pro Gear Provided"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-018",
+      "resort_name": "Kempinski Zermatt",
+      "region": "Zermatt",
+      "package_type": "Skiing",
+      "vibe": "Snowy, Active, Alpine",
+      "price_gbp": 5400,
+      "duration_days": 7,
+      "key_amenities": [
+        "Lift Passes Included",
+        "Gourmet Fondue Experience",
+        "Private Instructor",
+        "Heated Pool"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-034",
+      "resort_name": "Crystal Cruises Galapagos",
+      "region": "Galapagos",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 8100,
+      "duration_days": 7,
+      "key_amenities": [
+        "Evening Entertainment",
+        "Specialized Shore Excursions",
+        "Spa Access",
+        "Multiple Fine Dining venues"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-052",
+      "resort_name": "Crystal Cruises Norwegian Fjords",
+      "region": "Norwegian Fjords",
+      "package_type": "Cruises",
+      "vibe": "Relaxing, Scenic, Multi-Destination",
+      "price_gbp": 10700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Spa Access",
+        "Specialized Shore Excursions",
+        "Butler Service",
+        "Multiple Fine Dining venues"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity"
+      ]
+    },
+    {
+      "id": "PKG-012",
+      "resort_name": "Badrutt's Palace Chamonix",
+      "region": "Chamonix",
+      "package_type": "Skiing",
+      "vibe": "Luxurious, Apres-Ski, Scenic",
+      "price_gbp": 6700,
+      "duration_days": 5,
+      "key_amenities": [
+        "Lift Passes Included",
+        "Gourmet Fondue Experience",
+        "Ski-In/Ski-Out",
+        "Heated Pool"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-042",
+      "resort_name": "Fairmont Chamonix",
+      "region": "Chamonix",
+      "package_type": "Skiing",
+      "vibe": "Charming, Village, Welcoming",
+      "price_gbp": 6700,
+      "duration_days": 7,
+      "key_amenities": [
+        "Heated Pool",
+        "Equipment Valet",
+        "Gourmet Fondue Experience",
+        "Lift Passes Included"
+      ],
+      "hard_constraints_handled": []
+    },
+    {
+      "id": "PKG-026",
+      "resort_name": "Disney Grand Floridian Gold Coast",
+      "region": "Gold Coast",
+      "package_type": "Family holidays",
+      "vibe": "Cultural, Educational, Safe",
+      "price_gbp": 2300,
+      "duration_days": 10,
+      "key_amenities": [
+        "All-Inclusive Dining",
+        "Family Excursions",
+        "Kids Club",
+        "Babysitting Services"
+      ],
+      "hard_constraints_handled": [
+        "No intensive physical activity",
+        "Must allow children under 10"
+      ]
+    }
+  ]
+}
