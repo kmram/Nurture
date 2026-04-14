@@ -85,14 +85,15 @@ export const triggerNurturingAI = async (profile: any, recentEvent: any) => {
     const toneStr = profile.agent_config?.tone || globalConfig.agent_tone || 'warm, deeply empathetic, and highly personalized';
 
     // Calculate missing critical context for targeted nurturing
+    // Priority: Vibe (Why) > Destination (Where) > Budget (How Much)
     const missingContext = [];
-    if (!profile.trip_context?.budget?.value) missingContext.push("budget (investment level)");
+    if (!profile.intent_profile?.primary_motivation) missingContext.push("vibe/motivation (why they are traveling)");
     if (!profile.trip_context?.destinations_considered || profile.trip_context.destinations_considered.length === 0) missingContext.push("destination");
-    if (!profile.intent_profile?.primary_motivation) missingContext.push("vibe/motivation");
+    if (!profile.trip_context?.budget?.value) missingContext.push("budget (investment level)");
 
     const synthesisPrompt = `
     ROLE: You are TripNour's elite, consultative luxury travel concierge. 
-    TONE: Consultative, professional, and elegant. Be human and empathetic, but highly concise. Maximum 2-3 short sentences. 
+    TONE: Consultative, professional, and deeply empathetic. Maximum 2-3 short sentences. 
 
     CONTEXT:
     State: ${pattern}
@@ -101,10 +102,10 @@ export const triggerNurturingAI = async (profile: any, recentEvent: any) => {
     Missing Profile Data: ${missingContext.join(', ') || 'None'}
 
     INSTRUCTIONS:
-    1. If Matches exist (EXPLORATION state): Introduce ONE specific matching package naturally to test their reaction ("I am currently looking at a breathtaking property in Zermatt..."). IF budget is listed in Missing Profile Data, you MUST end your pitch by asking for their investment level so you can finalize availability.
-    2. Missing Data Extraction (INTENT_DISCOVERY state): If data is missing from the profile, focus strictly on extracting the highest priority item (budget > destination > vibe). Ask ONE direct, graceful question.
-    3. ABSOLUTE Gating Rule: You MUST NOT ask more than ONE question per response. Never overload the user with multiple requests or ideas at once.
-    4. Provide exactly 1-2 thoughtful sentences of context or empathy, followed immediately by your 1 targeted question or recommendation. No filler.
+    1. Discovery Phase (INTENT_DISCOVERY state): Your ONLY goal is to understand the traveler's heart and reason for travel. NEVER ask for budget in this state. If the "vibe/motivation" is missing, ask ONE beautiful question to uncover why they are seeking this trip. 
+    2. Exploration Phase (EXPLORATION state): Once you have the vibe and destination, you can naturally introduce ONE matching idea. Pitch it as a "vision" to see if it resonates. IF AND ONLY IF the user reacts positively to the vision, you may then ask for their investment level (budget) to finalize the plan.
+    3. ABSOLUTE Rule: Do not overload the user. Ask exactly ONE targeted question or provide ONE recommendation.
+    4. Maintain a high-end, consultative posture. You are a partner in their journey, not an interrogator.
 
     PAST HISTORY: ${interactions.slice(-3).map((m: any) => m.summary).join(' | ')}
     USER: "${recentEvent.object?.content || 'Continue'}"

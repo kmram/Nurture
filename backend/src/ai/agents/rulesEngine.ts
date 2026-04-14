@@ -17,10 +17,13 @@ export const executeRules = (profile: any, extractedUpdates: any) => {
     const hasDest = profile.trip_context?.destinations_considered?.length > 0 || extractedUpdates?.destinations?.length > 0;
 
     // Promotion Logic: Discovery -> Exploration
-    // If we have either Budget OR a specific Destination/Vibe, start showing products.
-    if (nextState === 'INTENT_DISCOVERY' && (hasBudget || hasDest || hasVibe)) {
+    // We only move to EXPLORATION once we have established a clear intent (Vibe + Destination).
+    // Budget is a gate for VALIDATION, but should NOT trigger discovery-to-exploration on its own.
+    const contextScore = (hasDest ? 1 : 0) + (hasVibe ? 1 : 0);
+
+    if (nextState === 'INTENT_DISCOVERY' && contextScore >= 2) {
         nextState = 'EXPLORATION';
-        console.log('📈 RULE: Moving to EXPLORATION to start pitching catalog.');
+        console.log('📈 RULE: Context established (Dest + Vibe). Moving to EXPLORATION.');
     }
 
     // 2. HIGH-VALUE LEAD GATING (The Patentable Moat)
