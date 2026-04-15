@@ -2,10 +2,20 @@ import { Kafka } from 'kafkajs';
 import { processEvent } from '../engine/decisionEngine';
 
 const KAFKA_BROKER = process.env.KAFKA_BROKER || 'localhost:9092';
+const KAFKA_USER = process.env.KAFKA_USER;
+const KAFKA_PASSWORD = process.env.KAFKA_PASSWORD;
+const KAFKA_SASL = process.env.KAFKA_SASL === 'true';
+const KAFKA_SSL = process.env.KAFKA_SSL === 'true';
 
 const kafka = new Kafka({
     clientId: 'tripnour-engine',
     brokers: [KAFKA_BROKER],
+    ssl: KAFKA_SSL,
+    sasl: KAFKA_SASL ? {
+        mechanism: 'scram-sha-256',
+        username: KAFKA_USER || '',
+        password: KAFKA_PASSWORD || ''
+    } : undefined,
     retry: { retries: 5 }
 });
 
